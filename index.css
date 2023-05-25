@@ -1,0 +1,68 @@
+/* Reset styles a bit. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define some variables. */
+:root {
+  /* Colors. */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --blue: hsl(218, 44%, 22%);
+  --grayish-blue: hsl(220, 15%, 55%);
+
+  /* Font. */
+  --font-family: "Outfit", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-body: 0.9375;
+}
+
+/* QR Code component. */
+.qr-code {
+  background-color: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.qr-code--card {
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  padding: 1rem;
+}
+
+.qr-code--image {
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+}
+
+.qr-code--content {
+  font-family: var(--font-family);
+  margin-top: 1.5rem;
+  padding: 0 0.75rem;
+  text-align: center;
+}
+
+.qr-code--title {
+  color: var(--blue);
+  font-size: 1.25rem;
+}
+
+.qr-code--description {
+  color: var(--grayish-blue);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
