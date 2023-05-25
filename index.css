@@ -17,7 +17,7 @@
   --font-family: "Outfit", sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-  --font-size-body: 0.9375;
+  --font-size-body: 0.9375rem;
 }
 
 /* QR Code component. */
@@ -37,12 +37,12 @@
   background-color: var(--white);
   border-radius: 1.5rem;
   box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.1);
-  max-width: 320px;
+  max-width: 20rem;
   padding: 1rem;
 }
 
 .qr-code--image {
-  border-radius: 12px;
+  border-radius: 0.75rem;
   display: block;
   width: 100%;
 }
