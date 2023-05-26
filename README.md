@@ -2,39 +2,28 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### Screenshot
+These are aspects that I know I could improve:
 
-![](./screenshot.jpg)
+- The text within the component doesn't align properly (the lighter text is meant to take up a lower width, but I allowed it to take a similar width as the darker text). I could fix this, but it would require adding hacky CSS, so I decided not to go that route.
+- The box shadow is probably not accurate, though the source image was low enough quality that it would have been to much of a pain to fix.
+- The padding in the image was measured to be 31px, but I kept it to be 32px (or 2rem). Other measurements had the same issue, but I didn't really care to have them be weird numbers.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+### Screenshots
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
+#### Mobile
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![Mobile screenshot](./assets/mobile-screenshot.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+#### Desktop
+
+![Desktop screenshot](./assets/desktop-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Daniel-Livingston/fm-qr-code-component)
+- [Live Site URL](https://daniel-livingston.github.io/fm-qr-code-component/)
 
 ## Author
 
